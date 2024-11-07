@@ -32,25 +32,19 @@ if (movementPosition.toUpperCase() === directionMoveToLeft) {
               );
               if (movementPosition.toUpperCase() === directionMoveToRight) {
                 alert(movementPosition);
-                movementPosition = prompt(
-                  selectDirection,
-                );
+                movementPosition = prompt(selectDirection);
                 if (movementPosition.toUpperCase() === directionMoveToRight) {
                   alert(movementPosition);
-                  movementPosition = prompt(
-                    selectDirection,
-                  );
+                  movementPosition = prompt(selectDirection);
                   if (movementPosition.toUpperCase() === directionMoveToUp) {
                     alert(movementPosition);
-                    movementPosition = prompt(
-                      selectDirection
-                    );
+                    movementPosition = prompt(selectDirection);
                     if (movementPosition.toUpperCase() === directionMoveToUp) {
                       alert(movementPosition);
-                      movementPosition = prompt(
-                        selectDirection,
-                      );
-                      if (movementPosition.toUpperCase() === directionMoveToUp) {
+                      movementPosition = prompt(selectDirection);
+                      if (
+                        movementPosition.toUpperCase() === directionMoveToUp
+                      ) {
                         alert(`Congratulations! You've reached the final destination.`);
                       } else {
                         alert(warningMessage);
